@@ -1,0 +1,70 @@
+
+  "site": {
+    "nome": "Carros Sinodal Web",
+    "ano": 2025,
+
+    "menu": {
+      "tipo": "menu superior",
+      "itens": [
+        { "nome": "Veículos novos", "link": "/veiculos/novos" },
+        { "nome": "Veículos seminovos", "link": "/veiculos/seminovos" },
+        { "nome": "Tabela FIPE", "link": "/tabela-fipe" },
+        { "nome": "Entre em contato", "link": "/entre-em-contato" }
+      ]
+    },
+
+    "bannerPrincipal": {
+      "titulo": "Banner Principal",
+      "mensagem": "Seu usado vale mais aqui na nossa loja",
+      "botao": {
+        "texto": "Faça uma cotação",
+        "link": "/cotacao"
+      }
+    },
+
+    "veiculosDestaque": {
+      "titulo": "Veículos em destaque",
+      "veiculos": [
+        {
+          "nome": "Honda Civic 2024",
+          "preco": 140000,
+          "cor": "vermelho",
+          "imagem": "/imagens/carro-a.jpg",
+          "botao": {
+            "texto": "Comprar",
+            "link": "/comprar/civic-2024"
+          }
+        },
+        {
+          "nome": "Toyota Corolla 2020",
+          "preco": 101000,
+          "cor": "azul",
+          "imagem": "/imagens/carro-b.jpg",
+          "botao": {
+            "texto": "Comprar",
+            "link": "/comprar/corolla-2020"
+          }
+        },
+        {
+          "nome": "Hyundai HB20",
+          "preco": 70000,
+          "cor": "branco",
+          "imagem": "/imagens/carro-c.jpg",
+          "botao": {
+            "texto": "Comprar",
+            "link": "/comprar/hb20"
+          }
+        }
+      ]
+    },
+
+    "rodape": {
+      "texto": "Copyright 2025 - Carros Sinodal Web",
+      "links": [
+        { "nome": "Política de Privacidade", "link": "/politica-de-privacidade" },
+        { "nome": "Redes Sociais", "link": "/redes-sociais" },
+        { "nome": "Fale conosco", "link": "/fale-conosco" }
+      ]
+    }
+  }
+}
